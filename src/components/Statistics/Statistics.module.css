@@ -1,0 +1,16 @@
+.Container {
+  margin-top: 30px;
+}
+
+.Title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.Text {
+  font-weight: 500;
+}
+
+.Text:not(:last-child) {
+  margin-bottom: 10px;
+}
