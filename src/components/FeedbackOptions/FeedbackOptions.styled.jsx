@@ -1,10 +1,12 @@
-.Container {
+import styled from "@emotion/styled";
+
+export const Container = styled.div`
   margin-top: 40px;
   margin-left: 20px;
   display: flex;
-}
+`;
 
-.Button {
+export const Button = styled.button`
   background-color: transparent;
   border-radius: 4px;
   border: none;
@@ -15,8 +17,7 @@
   font-weight: 600;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 4px rgba(0, 0, 0, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
-}
-
-.Button:not(:last-child) {
-  margin-right: 15px;
-}
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+`;
